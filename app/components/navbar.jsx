@@ -10,7 +10,7 @@ export default function Navbar() {
                 <Image
                     src="/assets/logo.png"
                     width={250}
-                    height={54}
+                    height={250}
                     className='nav-logo'
                     alt="Madrasa Rahmaniya Quasimul Uloom"
                 />

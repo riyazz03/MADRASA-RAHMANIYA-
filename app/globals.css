@@ -6,13 +6,13 @@
   --background: #ffffff;
   --foreground: #1e1e1e;
   --border-color: rgba(0, 48, 110, 0.15);
-  --button-bg: #00306E;
-  --white:#ffffff;
+  --button-bg: #00306e;
+  --white: #ffffff;
   --black: #1e1e1e;
-  --primary-color:#00306E;
-  --secondary-bg-color:rgba(209, 241, 255, 0.52);
-  --stroke-color:#01306E;
-  --font-primary: 'Inter', sans-serif;
+  --primary-color: #00306e;
+  --secondary-bg-color: rgba(209, 241, 255, 0.52);
+  --stroke-color: #01306e;
+  --font-primary: "Inter", sans-serif;
 }
 
 body {
@@ -21,13 +21,23 @@ body {
   font-family: var(--font-primary);
 }
 
-.main-container{
+.main-container {
   width: 80rem;
-  max-width:100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-h1{
+h1 {
   font-size: 36px;
   line-height: 60px;
 }
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #000000;
+}
+

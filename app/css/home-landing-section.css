@@ -36,6 +36,7 @@
   text-transform: capitalize;
   color: var(--primary-color);
   position: relative;
+  z-index: 1;
 }
 
 .is-light-italic {
