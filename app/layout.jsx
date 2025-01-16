@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Madrasa Rahmaniya Quasimul Uloom",
-  description: "In supporting our madrassa, you&ampre helping create a foundation of learning and light. May each gift you give be returned to you as a place in paradise.",
+  description: "In supporting our madrassa, you&amp;re helping create a foundation of learning and light. May each gift you give be returned to you as a place in paradise.",
 };
 
 export default function RootLayout({ children }) {

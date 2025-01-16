@@ -16,10 +16,10 @@ navbar{
     max-width: 250px;
 }
 .nav-button{
-    padding: 20px 25px;
-    font-size: 12px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 400;
     background-color: var(--button-bg);
     color: var(--white);
-    border-radius: 5px;
-    letter-spacing: 1px;
+    border-radius: 30px;
 }

@@ -9,13 +9,13 @@ export default function Navbar() {
             <div className="main-container navbar-container">
                 <Image
                     src="/assets/logo.png"
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={54}
                     className='nav-logo'
                     alt="Madrasa Rahmaniya Quasimul Uloom"
                 />
 
-                <Link className='nav-button' href="#">MAKE A DONATION NOW</Link>
+                <Link className='nav-button' href="#">Donate Now</Link>
             </div>
         </navbar>
     );
