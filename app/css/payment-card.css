@@ -1,9 +1,64 @@
-.payment-card-section{
-width: 532px;
-background-color: var(--secondary-bg-color);
-height: 1090px;
+.payment-card-section {
+  width: 532px;
+  background-color: var(--secondary-bg-color);
+  height: 1090px;
+  border-radius: 20px;
+  padding: 40px 20px;
 }
 
-.payment-container{
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+.payment-social-icons-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 22px;
+  align-items: center;
+}
+.payment-block {
+  width: 100%;
+  background-color: var(--white);
+  padding: 28px 26px;
+  border-radius: 10px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: stretch;
+}
+.custom-amount-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-button {
+  padding: 14px 33px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  transition: all 0.3 ease;
+}
+
+.payment-button:hover {
+  background-color: #2374dd;
+  color: white;
+}
+
+.payment-button.active {
+  background-color: #2374dd;
+  color: white;
+}
+.payment-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.472);
 }
