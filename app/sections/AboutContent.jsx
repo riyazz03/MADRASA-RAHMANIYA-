@@ -1,8 +1,8 @@
 import React from 'react'
+import '../css/donation-overview.css'
 import '../css/about-content.css';
 import Image from 'next/image'
 import Link from 'next/link'
-import '../css/donation-overview.css'
 import expenses from '../sections/expenses.json';
 import adoptStudent from '../sections/adoptStudent.json';
 import Expenses from '../components/Expenses';
@@ -18,7 +18,7 @@ export default function AboutContent() {
         <div>
         <Image src="/assets/group-photo.png" width={720} height={323} alt="Donation Overview" />
         <div className="donation-overview-content">
-          <h4>Dear Brothers Assalamualaikum,</h4>
+          <h4 className='donation-overview-title'>Dear Brothers Assalamualaikum,</h4>
           <p>Rahmaniya Masjid and Madrasa are located at Budur village in Vellore district. Currently, students pursuing the education do not have adequate classrooms, hostel,  kitchen and dining hall. Currently, the construction is under progress as it is an  immediate and necessity needs to accomplish. The estimated construction cost is  around Rupees 1,27,00,000/- (One crore twenty seven lakhs rupees) Hence, request you to support and contribute towards the construction and get long lasting rewards for yourself and delegate it for your beloved ancestors. Those who pursue Islamic education are the successor of Prophets. Support them and  get the mansions and the beautiful gardens built for you in the heaven. May Allah accept your contribution and rewards the best.</p>
         </div>
 

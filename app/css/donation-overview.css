@@ -4,6 +4,11 @@
     margin-top: 28px;
     text-align: justify;
 }
+.donation-overview-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
 .expense-breakdown{
     margin-top: -15%;
     min-height: 100vh;
