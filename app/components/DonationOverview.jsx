@@ -1,21 +1,20 @@
-import React from 'react'
-import '../css/about-content.css';
 import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react'
 import '../css/donation-overview.css'
 import expenses from '../sections/expenses.json';
 import adoptStudent from '../sections/adoptStudent.json';
-import Expenses from '../components/Expenses';
-import AdoptStudent from '../components/AdoptStudent';
+import donateFood from '../sections/donateFood.json';
+import Expenses from './Expenses';
+import AdoptStudent from './AdoptStudent';
+import DonateFood from './DonateFood';
 import data from '../sections/donateFood.json'
 
-export default function AboutContent() {
+const DonationOverview = () => {
+  // Convert data to array if it's not already
+  const donationData = Array.isArray(data) ? data : Object.values(data);
 
-    // Convert data to array if it's not already
-    const donationData = Array.isArray(data) ? data : Object.values(data);
-
-    return (
-        <div>
+  return (
+    <div>
         <Image src="/assets/group-photo.png" width={720} height={323} alt="Donation Overview" />
         <div className="donation-overview-content">
           <h4>Dear Brothers Assalamualaikum,</h4>
@@ -42,9 +41,16 @@ export default function AboutContent() {
           <h4 className='trust-youtube-video-title'>| MADRASA RAHMANIYA QUASIMUL ULOOM TRUST</h4>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ3R6nmhseQ?si=w0uqq1sC7cmgjOXL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        
+        <div className="donate-food">
+          <h4 className="donate-food-title">| DONATE FOOD</h4>
+          <div className="donate-food-table">
+            {donateFood.map((item) => (
+              <DonateFood image={item.image} title={item.title} price={item.price} />
+            ))}
+          </div>
+        </div>
     </div>
-    );
+  )
 }
- 
 
+export default DonationOverview

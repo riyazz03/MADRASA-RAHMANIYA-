@@ -1,0 +1,33 @@
+[
+    {
+      "Course": "Course",
+      "PerYear": "Per Year",
+      "PerMonth": "Per Month"
+    },
+    {
+      "Course": "Huffaz Course",
+      "PerYear": "42,000/-",
+      "PerMonth": "3,500/-"
+    },
+    {
+      "Course": "Aalim Course",
+      "PerYear": "60,000/-",
+      "PerMonth": "5,000/-"
+    },
+    {
+      "Course": "Momina Course",
+      "PerYear": "9,600/-",
+      "PerMonth": "800/-"
+    },
+    {
+      "Course": "Muballiga Course",
+      "PerYear": "60,000/-",
+      "PerMonth": "5,000/-"
+    },
+    {
+      "Course": "Momina Course",
+      "PerYear": "2,400/-",
+      "PerMonth": "200/-"
+    }
+  ]
+  
