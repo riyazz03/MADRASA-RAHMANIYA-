@@ -1,0 +1,84 @@
+.donation-overview-content{
+    max-width: 722px;
+    height: 437px;
+    margin-top: 28px;
+    text-align: justify;
+}
+.donation-overview-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.expense-breakdown{
+    margin-top: -15%;
+    min-height: 100vh;
+}
+.expense-breakdown-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.adopt-student-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 38px;
+}
+.adopt-student-item{
+    display: flex;
+    background-color: var(--secondary-bg-color);
+    align-items: center;
+    border-radius: 20px;
+    width: 722px;
+    height: 80px;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+.adopt-student-table{
+    /* padding: 28px 44px; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.adopt-student-course, 
+.adopt-student-perYear, 
+.adopt-student-perMonth{
+    width: 220px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.adopt-student-course:nth-child(1){
+    margin-right: 70px;
+    margin-left: 50px;
+}
+.adopt-student-item:nth-child(1) .adopt-student-course, 
+.adopt-student-item:nth-child(1) .adopt-student-perYear, 
+.adopt-student-item:nth-child(1) .adopt-student-perMonth{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.trust-youtube-video-title{
+    margin-top: 58px;
+    margin-bottom: 20px;
+}
+
+/* Donate food */
+.donate-food{
+    width: 532px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+    height: 1090px;
+}
+
+
+.donate-food-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 38px;
+}

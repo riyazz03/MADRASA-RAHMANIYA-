@@ -1,0 +1,27 @@
+.expense-item{
+    height: 87px;
+    width: 698px;
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 18px 50px;
+    margin-bottom: 18px;
+}
+.expense-content{
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: 353px;
+}
+.expense-money{
+    height: 22px;
+    width: 135px;
+}
+
+/* Add this new rule to target the last expense item's content */
+.expense-item:last-child .expense-content {
+    font-size: 18px;
+    font-weight: 800;
+}
