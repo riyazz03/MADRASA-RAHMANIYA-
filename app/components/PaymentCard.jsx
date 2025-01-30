@@ -33,11 +33,58 @@ export default function PaymentCard() {
                 </div>
                 <div className="payment-block">
                     <div className="custom-amount-block">
-                    <Link className="payment-button active" href="#">₹1,000</Link>
-                    <Link className="payment-button" href="#">₹1,500</Link>
-                    <Link className="payment-button" href="#">₹2,000</Link>
+                        <Link className="payment-button active" href="#">₹1,000</Link>
+                        <Link className="payment-button" href="#">₹1,500</Link>
+                        <Link className="payment-button" href="#">₹2,000</Link>
                     </div>
-                    <input className='payment-input' type="text" placeholder='₹ 1,500'/>
+                    <input className='payment-input' type="text" placeholder='INR ₹ 1,500' />
+                    <div className="cards-wrapper-block">
+                        <p className='card-para-light'>Donate Via :</p>
+                        <p className='cards-para-dark'>UPI / CARDS</p>
+                        <div className="payment_icons_wrapper">
+                        <div className="payment-icons-divs">
+                                <Image
+                                    src="/svg/gpay.svg"
+                                    className='payment-svg-icons'
+                                    width={30}
+                                    height={30}
+                                    alt="WhatsApp Svg"
+                                />
+                            </div><div className="payment-icons-divs">
+                                <Image
+                                    src="/svg/phonepe.svg"
+                                    className='payment-svg-icons'
+                                    width={30}
+                                    height={30}
+                                    alt="WhatsApp Svg"
+                                />
+                            </div><div className="payment-icons-divs">
+                                <Image
+                                    src="/svg/cards.svg"
+                                    className='payment-svg-icons'
+                                    width={30}
+                                    height={30}
+                                    alt="WhatsApp Svg"
+                                />
+                            </div><div className="payment-icons-divs">
+                                <Image
+                                    src="/svg/paytm.svg"
+                                    className='payment-svg-icons'
+                                    width={30}
+                                    height={30}
+                                    alt="WhatsApp Svg"
+                                />
+                            </div><div className="payment-icons-divs">
+                                <Image
+                                    src="/svg/bhim.svg"
+                                    className='payment-svg-icons'
+                                    width={30}
+                                    height={30}
+                                    alt="WhatsApp Svg"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
