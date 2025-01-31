@@ -84,7 +84,8 @@ export default function PaymentCard() {
                                 />
                             </div>
                         </div>
-                    </div>
+                        <button id='pay-now' className='gradient-button'>DONATE NOW</button>
+                        </div>
                 </div>
             </div>
         </section>
