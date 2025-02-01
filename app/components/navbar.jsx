@@ -14,8 +14,10 @@ export default function Navbar() {
                     className='nav-logo'
                     alt="Madrasa Rahmaniya Quasimul Uloom"
                 />
-
-                <Link className='nav-button' href="#">Donate Now</Link>
+                
+                <Link className='nav-button' href="#">
+                Donate Now
+                </Link>
             </div>
         </navbar>
     );
