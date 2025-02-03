@@ -25,4 +25,16 @@ navbar {
   background-color: var(--button-bg);
   color: var(--white);
   border-radius: 1.875rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-button:hover{
+  background: linear-gradient(
+    90deg, 
+    #00306e 0%,
+    #2972d0 50%, 
+    #00306e 100%
+  );
+  color: white;
 }
