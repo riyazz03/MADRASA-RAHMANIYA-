@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <navbar>
+        <nav>
             <div className="main-container navbar-container">
                 <Image
                     src="/assets/logo.png"
@@ -19,6 +19,6 @@ export default function Navbar() {
                 Donate Now
                 </Link>
             </div>
-        </navbar>
+        </nav>
     );
 }
