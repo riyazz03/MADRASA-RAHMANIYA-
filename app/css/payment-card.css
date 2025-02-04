@@ -1,9 +1,11 @@
 .payment-card-section {
   width: 532px;
   background-color: var(--secondary-bg-color);
-  height: 1090px;
   border-radius: 20px;
   padding: 40px 20px;
+  height: 100%;
+  position: sticky;
+  top: 10px;
 }
 
 .payment-container {
