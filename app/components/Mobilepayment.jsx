@@ -126,16 +126,6 @@ export default function MobilePaymentCard() {
                         </button>
                     </div>
                 </div>
-                <div className="qr-image-wrapper">
-                    <Image
-                        src="/carousel-images/carousel-1.png"
-                        width={500}
-                        height={500}
-                        className='qr-image'
-                        alt="qr-image"
-                    />
-                    <p>UPI ID : 9629158073@ptsbi</p>
-                </div>
             </div>
         </section>
     );
