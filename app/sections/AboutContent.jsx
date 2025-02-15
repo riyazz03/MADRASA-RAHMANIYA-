@@ -9,7 +9,6 @@ import AdoptStudent from "../components/AdoptStudent";
 import data from "../json/donateFood.json";
 
 export default function AboutContent() {
-  // Convert data to array if it's not already
   const donationData = Array.isArray(data) ? data : Object.values(data);
 
   return (
@@ -75,7 +74,7 @@ export default function AboutContent() {
         <iframe
           width="727"
           height="395"
-          src="https://www.youtube.com/embed/CZ3R6nmhseQ?si=w0uqq1sC7cmgjOXL"
+          src="https://www.youtube.com/embed/YoZVdJjIGRw?si=2qCk4AplW7ZtqYMe"
           className="trust-youtube-video"
           title="YouTube video player"
           frameBorder="0"
