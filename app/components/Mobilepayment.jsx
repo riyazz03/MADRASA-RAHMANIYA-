@@ -52,9 +52,8 @@ export default function MobilePaymentCard() {
     };
 
     return (
-        <section id='payment-card' className="payment-card-section is-desktop-hide">
+        <section className="payment-card-section is-desktop-hide">
             <div className="payment-container">
-                {/* Social Share Icons */}
                 <div className="payment-social-icons-wrapper">
                     <Image
                         src="/svg/whatsapp.svg"
