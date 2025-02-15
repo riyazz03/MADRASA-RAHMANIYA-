@@ -1,19 +1,21 @@
 .footer_wrapper {
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  margin-top: 5rem;
-}
-.crayont {
-  color: white;
-  font-size: 14px;
-}
-
-@media screen and (max-width: 726px) {
-  .footer_wrapper {
-    margin-top: 3rem;
-    padding: 2rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin-top: 5rem;
   }
-}
+  
+  .crayont {
+    color: white;
+    font-size: 0.875rem;
+  }
+  
+  @media screen and (max-width: 726px) {
+    .footer_wrapper {
+      margin-top: 3rem;
+      padding: 2rem;
+    }
+  }
+  

@@ -1,90 +1,102 @@
 .donation-overview-content {
-  max-width: 722px;
-  margin-top: 40px;
+  max-width: 45.125rem;
+  margin-top: 2.5rem;
   text-align: justify;
 }
+
 .donation-overview-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
+
 .expense-breakdown {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
+
 .expense-breakdown-title {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
+
 .adopt-student {
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
+
 .adopt-student-title {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
 }
+
 .adopt-student-item {
   display: flex;
   background-color: var(--secondary-bg-color);
   align-items: center;
-  border-radius: 20px;
-  width: 698px;
-  height: 80px;
-  gap: 50px;
+  border-radius: 1.25rem;
+  width: 43.625rem;
+  height: 5rem;
+  gap: 3.125rem;
 }
+
 .adopt-student-table {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   grid-template-columns: 1fr;
-  margin-top: 38px;
+  margin-top: 2.375rem;
 }
+
 .adopt-student-course,
 .adopt-student-perYear,
 .adopt-student-perMonth {
-  width: 220px;
-  height: 22px;
-  font-size: 18px;
+  width: 13.75rem;
+  height: 1.375rem;
+  font-size: 1.125rem;
   font-weight: 400;
   display: flex;
   align-items: center;
 }
+
 .adopt-student-course:nth-child(1) {
-  margin-right: 70px;
-  margin-left: 50px;
+  margin-right: 4.375rem;
+  margin-left: 3.125rem;
 }
+
 .adopt-student-item:nth-child(1) .adopt-student-course,
 .adopt-student-item:nth-child(1) .adopt-student-perYear,
 .adopt-student-item:nth-child(1) .adopt-student-perMonth {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .donate-food {
-  width: 532px;
+  width: 33.25rem;
   background-color: var(--secondary-bg-color);
-  border-radius: 20px;
-  height: 1090px;
+  border-radius: 1.25rem;
+  height: 68.125rem;
 }
 
 .trust-youtube-video {
-  margin-top: 40px;
-  border-radius: 20px;
+  margin-top: 2.5rem;
+  border-radius: 1.25rem;
 }
 
 .donate-food-title {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  margin-top: 100px;
-  margin-bottom: 38px;
+  margin-top: 6.25rem;
+  margin-bottom: 2.375rem;
 }
+
 .expense-breakdown-table {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
+
 .trust-youtube-video-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #01306e;
 }
@@ -92,36 +104,43 @@
 @media screen and (max-width: 768px) {
   .adopt-student-item {
     width: auto;
-    padding: 0px 15px;
+    padding: 0rem 0.9375rem;
     justify-content: space-evenly;
   }
+
   .adopt-student-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
   }
+
   .donate-food {
     width: 100%;
   }
+
   .adopt-student-course,
   .adopt-student-perYear,
   .adopt-student-perMonth {
     width: 100%;
     height: 100%;
   }
+
   .adopt-student {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
+
   .adopt-student-table {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: grid;
-    gap: 20px;
+    gap: 1.25rem;
     grid-template-columns: 1fr;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
+
   .adopt-student-course:nth-child(1) {
     margin-right: 0;
     margin-left: 0;
   }
+
   .adopt-student-course,
   .adopt-student-perYear,
   .adopt-student-perMonth {
@@ -130,24 +149,28 @@
     font-size: 0.8rem;
     font-weight: 400;
   }
+
   .adopt-student-item:nth-child(1) .adopt-student-course,
   .adopt-student-item:nth-child(1) .adopt-student-perYear,
   .adopt-student-item:nth-child(1) .adopt-student-perMonth {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
   }
+
   .trust-youtube-video-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     color: #01306e;
   }
+
   .trust-youtube-video {
-    margin-top: 20px;
-    border-radius: 10px;
+    margin-top: 1.25rem;
+    border-radius: 0.625rem;
     height: 100%;
   }
+
   iframe.trust-youtube-video {
     width: 100%;
-    height: 200px;
-}
+    height: 12.5rem;
+  }
 }

@@ -1,27 +1,28 @@
 .expense-item {
-  height: 87px;
-  width: 698px;
+  height: 5.4375rem;
+  width: 43.625rem;
   background-color: var(--secondary-bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20px;
-  padding: 18px 50px;
+  border-radius: 1.25rem;
+  padding: 1.125rem 3.125rem;
 }
 
 .expense-content {
   display: flex;
   align-items: center;
-  height: 66px;
-  width: 353px;
+  height: 4.125rem;
+  width: 22.0625rem;
 }
+
 .expense-money {
-  height: 22px;
-  width: 135px;
+  height: 1.375rem;
+  width: 8.4375rem;
 }
 
 .expense-item:last-child .expense-content {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 800;
 }
 
@@ -29,26 +30,30 @@
   .expense-item {
     width: 100%;
     height: 100%;
-    padding: 18px 20px;
-    border-radius: 10px;
+    padding: 1.125rem 1.25rem;
+    border-radius: 0.625rem;
     gap: 1rem;
   }
+
   .adopt-student-item {
     width: 100%;
   }
+
   .expense-content {
     width: 100%;
     height: 100%;
     font-size: 0.8rem;
   }
+
   .expense-money {
     height: 100%;
     width: 30%;
     font-size: 0.8rem;
   }
+
   .expense-breakdown-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }

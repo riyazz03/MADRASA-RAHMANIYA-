@@ -44,8 +44,7 @@ h2 {
   color: #000000;
 }
 
-
-@media  screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .main-container {
     width: 100%;
     max-width: 100%;
@@ -55,5 +54,5 @@ h2 {
   h2 {
     font-size: 1.3rem;
     line-height: 1.8rem;
-}
+  }
 }

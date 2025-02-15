@@ -1,16 +1,15 @@
-.about-content-block{
-    width: 720px;
+.about-content-block {
+  width: 45rem;
 }
-.donation-overview-image{
-    border-radius: 20px;
+.donation-overview-image {
+  border-radius: 1.25rem;
 }
 
-
-@media screen and (max-width: 768px){
-    .about-content-block{
-        width: 100%;
-    }
-    .donation-overview-image{
-        width: 100%;
-    }
+@media screen and (max-width: 48rem) {
+  .about-content-block {
+    width: 100%;
+  }
+  .donation-overview-image {
+    width: 100%;
+  }
 }
