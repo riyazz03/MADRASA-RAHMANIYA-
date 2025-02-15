@@ -177,7 +177,7 @@ export default function PaymentCard() {
                 </div>
                 <div className="qr-image-wrapper">
                     <Image
-                        src="/carousel-images/carousel-1.png"
+                        src="/assets/upi.png"
                         width={500}
                         height={500}
                         className='qr-image'
