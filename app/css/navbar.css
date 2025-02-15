@@ -22,19 +22,34 @@ nav {
   padding: 0.625rem 2.1875rem;
   font-size: 1rem;
   font-weight: 400;
-  background-color: var(--button-bg);
+  background: linear-gradient(
+    83.63deg,
+    #2580ff -38.67%,
+    #2972d0 23.81%,
+    #2374dd 52.56%,
+    #00306e 84.5%
+  );
   color: var(--white);
   border-radius: 1.875rem;
   cursor: pointer;
   position: relative;
 }
 
-.nav-button:hover{
-  background: linear-gradient(
-    90deg, 
-    #00306e 0%,
-    #2972d0 50%, 
-    #00306e 100%
-  );
-  color: white;
+
+@media screen and (max-width:768px){
+  nav {
+    height: 100%;
+    padding: 20px 10px;
+  }
+  .nav-logo {
+    width: 10rem;
+    max-width: 100%;
+  }
+  
+.nav-button {
+  padding: 0.5rem 1.8rem;
+  font-size: 0.725rem;
+  font-weight: 400;
+}
+
 }

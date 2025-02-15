@@ -4,3 +4,13 @@
 .donation-overview-image{
     border-radius: 20px;
 }
+
+
+@media screen and (max-width: 768px){
+    .about-content-block{
+        width: 100%;
+    }
+    .donation-overview-image{
+        width: 100%;
+    }
+}

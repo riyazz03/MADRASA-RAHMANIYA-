@@ -1,95 +1,153 @@
-.donation-overview-content{
-    max-width: 722px;
-    /* height: 437px; */
-    margin-top: 40px;
-    text-align: justify;
+.donation-overview-content {
+  max-width: 722px;
+  margin-top: 40px;
+  text-align: justify;
 }
-.donation-overview-title{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 18px;
+.donation-overview-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
-.expense-breakdown{
-    margin-top: 40px;
+.expense-breakdown {
+  margin-top: 40px;
 }
-.expense-breakdown-title{
-    font-size: 30px;
+.expense-breakdown-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.adopt-student {
+  margin-top: 70px;
+}
+.adopt-student-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.adopt-student-item {
+  display: flex;
+  background-color: var(--secondary-bg-color);
+  align-items: center;
+  border-radius: 20px;
+  width: 722px;
+  height: 80px;
+  gap: 50px;
+}
+.adopt-student-table {
+  border-radius: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  margin-top: 38px;
+}
+.adopt-student-course,
+.adopt-student-perYear,
+.adopt-student-perMonth {
+  width: 220px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.adopt-student-course:nth-child(1) {
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.adopt-student-item:nth-child(1) .adopt-student-course,
+.adopt-student-item:nth-child(1) .adopt-student-perYear,
+.adopt-student-item:nth-child(1) .adopt-student-perMonth {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.donate-food {
+  width: 532px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 20px;
+  height: 1090px;
+}
+
+.trust-youtube-video {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.donate-food-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 38px;
+}
+.expense-breakdown-table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.trust-youtube-video-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #01306e;
+}
+
+@media screen and (max-width: 768px) {
+  .adopt-student-item {
+    width: auto;
+    padding: 0px 15px;
+    justify-content: space-evenly;
+  }
+  .adopt-student-title {
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 40px;
-}
-.adopt-student{
-    margin-top: 70px;
-}
-.adopt-student-title{
-    font-size: 30px;
-    font-weight: 600;
-}
-.adopt-student-item{
-    display: flex;
-    background-color: var(--secondary-bg-color);
-    align-items: center;
-    border-radius: 20px;
-    width: 722px;
-    height: 80px;
-    gap: 50px;
-}
-.adopt-student-table{
+  }
+  .donate-food {
+    width: 100%;
+  }
+  .adopt-student-course,
+  .adopt-student-perYear,
+  .adopt-student-perMonth {
+    width: 100%;
+    height: 100%;
+  }
+  .adopt-student {
+    margin-top: 40px;
+  }
+  .adopt-student-table {
     border-radius: 10px;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr;
-    margin-top: 38px;
-}
-.adopt-student-course, 
-.adopt-student-perYear, 
-.adopt-student-perMonth{
-    width: 220px;
-    height: 22px;
-    font-size: 18px;
+    margin-top: 20px;
+  }
+  .adopt-student-course:nth-child(1) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .adopt-student-course,
+  .adopt-student-perYear,
+  .adopt-student-perMonth {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
     font-weight: 400;
-    display: flex;
-    align-items: center;
-}
-.adopt-student-course:nth-child(1){
-    margin-right: 70px;
-    margin-left: 50px;
-}
-.adopt-student-item:nth-child(1) .adopt-student-course, 
-.adopt-student-item:nth-child(1) .adopt-student-perYear, 
-.adopt-student-item:nth-child(1) .adopt-student-perMonth{
+  }
+  .adopt-student-item:nth-child(1) .adopt-student-course,
+  .adopt-student-item:nth-child(1) .adopt-student-perYear,
+  .adopt-student-item:nth-child(1) .adopt-student-perMonth {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .trust-youtube-video-title {
     font-size: 20px;
     font-weight: 700;
+    color: #01306e;
+  }
+  .trust-youtube-video {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+  iframe.trust-youtube-video {
+    width: 100%;
+    height: 200px;
 }
-
-/* .trust-youtube-video{
-    margin-top: 58px;
-} */
-
-.donate-food{
-    width: 532px;
-    background-color: var(--secondary-bg-color);
-    border-radius: 20px;
-    height: 1090px;
-}
-
-.trust-youtube-video{
-    margin-top: 40px;
-    border-radius: 20px;
-}
-
-.donate-food-title{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 100px;
-    margin-bottom: 38px;
-}
-.expense-breakdown-table{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.trust-youtube-video-title{
-    font-size: 24px;
-    font-weight: 700;
-    color: #01306E;
 }

@@ -27,14 +27,34 @@ export default function PaymentCard() {
 
         await initializeRazorpayPayment(selectedAmount, (response) => {
             console.log('Payment successful:', response);
-            // Add any additional success handling here
         });
     };
 
-    // Rest of your component remains the same
+    const shareOnSocial = (platform) => {
+        const url = encodeURIComponent(window.location.href);
+        let shareLink = "";
+
+        switch (platform) {
+            case "whatsapp":
+                shareLink = `https://api.whatsapp.com/send?text=Check out this donation page: ${url}`;
+                break;
+            case "facebook":
+                shareLink = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+                break;
+            case "twitter":
+                shareLink = `https://twitter.com/intent/tweet?text=Support this cause!&url=${url}`;
+                break;
+            default:
+                return;
+        }
+
+        window.open(shareLink, "_blank");
+    };
+
     return (
-        <section className="payment-card-section">
+        <section id='payment-card' className="payment-card-section">
             <div className="payment-container">
+                {/* Social Share Icons */}
                 <div className="payment-social-icons-wrapper">
                     <Image
                         src="/svg/whatsapp.svg"
@@ -42,6 +62,8 @@ export default function PaymentCard() {
                         width={30}
                         height={30}
                         alt="WhatsApp Svg"
+                        onClick={() => shareOnSocial("whatsapp")}
+                        style={{ cursor: "pointer" }}
                     />
                     <Image
                         src="/svg/facebook.svg"
@@ -49,6 +71,8 @@ export default function PaymentCard() {
                         width={30}
                         height={30}
                         alt="FaceBook Svg"
+                        onClick={() => shareOnSocial("facebook")}
+                        style={{ cursor: "pointer" }}
                     />
                     <Image
                         src="/svg/twitter.svg"
@@ -56,8 +80,11 @@ export default function PaymentCard() {
                         width={30}
                         height={30}
                         alt="Twitter Svg"
+                        onClick={() => shareOnSocial("twitter")}
+                        style={{ cursor: "pointer" }}
                     />
                 </div>
+
                 <div className="payment-block">
                     <div className="custom-amount-block">
                         <Link
@@ -99,7 +126,7 @@ export default function PaymentCard() {
                                     className='payment-svg-icons'
                                     width={30}
                                     height={30}
-                                    alt="WhatsApp Svg"
+                                    alt="Google Pay"
                                 />
                             </div>
                             <div className="payment-icons-divs">
@@ -108,7 +135,7 @@ export default function PaymentCard() {
                                     className='payment-svg-icons'
                                     width={30}
                                     height={30}
-                                    alt="WhatsApp Svg"
+                                    alt="PhonePe"
                                 />
                             </div>
                             <div className="payment-icons-divs">
@@ -117,7 +144,7 @@ export default function PaymentCard() {
                                     className='payment-svg-icons'
                                     width={30}
                                     height={30}
-                                    alt="WhatsApp Svg"
+                                    alt="Cards"
                                 />
                             </div>
                             <div className="payment-icons-divs">
@@ -126,7 +153,7 @@ export default function PaymentCard() {
                                     className='payment-svg-icons'
                                     width={30}
                                     height={30}
-                                    alt="WhatsApp Svg"
+                                    alt="Paytm"
                                 />
                             </div>
                             <div className="payment-icons-divs">
@@ -135,7 +162,7 @@ export default function PaymentCard() {
                                     className='payment-svg-icons'
                                     width={30}
                                     height={30}
-                                    alt="WhatsApp Svg"
+                                    alt="BHIM"
                                 />
                             </div>
                         </div>
@@ -148,6 +175,17 @@ export default function PaymentCard() {
                         </button>
                     </div>
                 </div>
+                <div className="qr-image-wrapper">
+                    <Image
+                        src="/carousel-images/carousel-1.png"
+                        width={500}
+                        height={500}
+                        className='qr-image'
+                        alt="qr-image"
+                    />
+                    <p>UPI ID : 9629158073@ptsbi</p>
+                </div>
             </div>
-        </section>);
+        </section>
+    );
 }

@@ -47,25 +47,81 @@
   border-radius: 10px;
   position: relative;
 }
-.donation-image{
+.donation-image {
   height: auto;
   width: 271px;
 }
-.donation-image-1{
+.donation-image-1 {
   position: absolute;
   left: 729px;
   top: 14px;
   z-index: 1;
 }
-.donation-image-2{
+.donation-image-2 {
   position: absolute;
   left: 823px;
   top: 155px;
   z-index: 2;
 }
-.donation-image-3{
+.donation-image-3 {
   position: absolute;
   top: 64px;
   left: 922px;
   z-index: 3;
+}
+
+@media screen and (max-width: 600px) {
+  .islamic-lines {
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .donation-cards-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    padding-bottom: 0px;
+    margin: 40px 20px;
+    border-radius: 5px;
+    max-height: 100%;
+    width: auto;
+    overflow: hidden;
+  }
+  .donation-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 140px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .donate-now-btn {
+    padding: 10px 35px;
+    font-size: 14px;
+  }
+  .donation-image-1 {
+    position: relative;
+    left: 0;
+    top: 45px;
+    z-index: 1;
+    rotate: 25deg;
+
+  }
+  .donation-image-2 {
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 124px;
+    z-index: 2;
+    rotate: -37deg;
+  }
+  .donation-image-3 {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 120px;
+    z-index: 3;
+  }
 }
