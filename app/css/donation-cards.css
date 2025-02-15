@@ -1,6 +1,6 @@
 .donation-cards-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1.375rem;
   align-items: flex-start;
   padding: 3.25rem;
