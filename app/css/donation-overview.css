@@ -1,5 +1,5 @@
 .donation-overview-content {
-  max-width: 45.125rem;
+  max-width: 45.4375rem;
   margin-top: 2.5rem;
   text-align: justify;
 }
@@ -34,7 +34,7 @@
   background-color: var(--secondary-bg-color);
   align-items: center;
   border-radius: 1.25rem;
-  width: 43.625rem;
+  width: 45.4375rem;
   height: 5rem;
   gap: 3.125rem;
 }

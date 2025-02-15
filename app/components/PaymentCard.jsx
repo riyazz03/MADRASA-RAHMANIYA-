@@ -54,7 +54,6 @@ export default function PaymentCard() {
     return (
         <section id='payment-card' className="payment-card-section">
             <div className="payment-container">
-                {/* Social Share Icons */}
                 <div className="payment-social-icons-wrapper">
                     <Image
                         src="/svg/whatsapp.svg"
