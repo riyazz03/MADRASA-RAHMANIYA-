@@ -183,7 +183,7 @@ export default function PaymentCard() {
                         className='qr-image'
                         alt="qr-image"
                     />
-                    <p>UPI ID : 9629158073@ptsbi</p>
+                    <p>UPI ID : 9488466414-1@okbizaxis</p>
                 </div>
             </div>
         </section>
